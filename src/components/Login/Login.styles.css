@@ -1,0 +1,345 @@
+/* !important keyword is used to override MUI default styles. */
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-image {
+  width: 100%;
+  height: 89vh;
+}
+
+.pet-cloud-logo {
+  position: fixed;
+  left: 3rem;
+  top: 3rem;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: center;
+  justify-self: center;
+  width: 28vw;
+  border-radius: 24px !important;
+  padding: 1rem;
+}
+
+.img-redirection {
+  cursor: pointer;
+}
+
+.header-sign-in {
+  font-family: "Inter-Semibold";
+  font-size: 32px !important;
+  letter-spacing: -0.7px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.text-log-in {
+  max-width: 311px;
+  text-align: center;
+}
+
+.text-field-email {
+  margin-top: 3rem !important;
+  width: 311px;
+}
+
+.text-field-password {
+  width: 311px;
+}
+
+.add-info {
+  padding-right: 0.6rem;
+}
+
+.sign-in-button {
+  background-color: black !important;
+  border-radius: 5rem !important;
+  width: 15rem;
+  height: 3.5rem;
+  color: white !important;
+  font-size: 18px !important;
+  width: 19rem !important;
+  margin-top: 1rem !important;
+}
+
+.sign-in-button-disabled {
+  background-color: black !important;
+  border-radius: 5rem !important;
+  width: 15rem;
+  height: 3.5rem;
+  color: white !important;
+  font-size: 18px !important;
+  width: 19rem !important;
+  margin-top: 1rem !important;
+  opacity: 30%;
+}
+
+.back-button {
+  background-color: white !important;
+  border-radius: 5rem !important;
+  width: 15rem;
+  height: 3.5rem;
+  color: black !important;
+  font-size: 18px !important;
+  width: 19rem !important;
+  margin-top: 0.5rem !important;
+  border: black 1px solid !important;
+}
+
+.download-app {
+  margin-top: 1.5rem !important;
+  display: flex;
+  gap: 1rem;
+}
+
+.download-typography {
+  font-size: 13px !important;
+  letter-spacing: -0.4px !important;
+  line-height: 15px !important;
+  width: 81px !important;
+  text-align: center !important;
+}
+
+.download-QR {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.QR-image {
+  width: 125px !important;
+}
+
+.spinner {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #ffff;
+  border-radius: 50%;
+  animation: spin 0.2s ease-in-out infinite;
+}
+
+.footer {
+  background-color: #f1fde1;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.8rem 2rem 6rem 3rem;
+}
+
+.footer-subcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.questions-typography {
+  font-size: 18px !important;
+  letter-spacing: -0.7px;
+  line-height: 21.78px;
+}
+
+.copyright-typography {
+  font-size: 14px !important;
+  letter-spacing: -0.7px !important;
+  line-height: 17px !important;
+  color: rgb(114, 114, 114) !important;
+}
+
+.support-typography {
+  color: #000;
+  font-family: "Inter-Regular";
+  margin-left: 10px;
+}
+
+.email-contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 1050px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .login-image {
+    height: 80vhvh;
+  }
+
+  .header-sign-in {
+    font-family: "Inter-Semibold";
+    font-size: 25px !important;
+    letter-spacing: -0.7px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .text-log-in {
+    max-width: 250px;
+    text-align: center;
+  }
+
+  .actions-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    padding-left: 3vh;
+  }
+
+  .text-field-email {
+    margin-top: 3rem !important;
+    width: 80%;
+  }
+
+  .text-field-password {
+    width: 80%;
+  }
+
+  .login-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-self: center;
+    justify-self: center;
+    width: 60vw !important;
+    border-radius: 24px !important;
+    padding: 1rem;
+    background-color: white !important;
+    z-index: 2;
+  }
+
+  .pet-cloud-logo {
+    position: fixed;
+    top: 2rem;
+    left: 1rem;
+    width: 10%;
+  }
+
+  .login-actions {
+    width: 80%;
+  }
+
+  .sign-in-button {
+    background-color: black !important;
+    border-radius: 5rem !important;
+    width: 80% !important;
+    height: 1.5rem;
+    color: white !important;
+    font-size: 18px !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .sign-in-button-disabled {
+    background-color: black !important;
+    border-radius: 5rem !important;
+    width: 80% !important;
+    height: 1.5rem;
+    color: white !important;
+    font-size: 18px !important;
+    margin-top: 0.5rem !important;
+    opacity: 30%;
+  }
+
+  .back-button {
+    background-color: white !important;
+    border-radius: 5rem !important;
+    width: 80% !important;
+    height: 1.5rem;
+    color: black !important;
+    font-size: 18px !important;
+    margin-top: 0.5rem !important;
+    border: black 1px solid !important;
+  }
+
+  .download-app {
+    margin-top: 1rem !important;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .download-typography {
+    font-size: 10px !important;
+    letter-spacing: -0.4px !important;
+    line-height: 15px !important;
+    width: 81px !important;
+    text-align: center !important;
+  }
+
+  .download-QR {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1rem;
+    top: 2rem !important;
+    gap: 1rem;
+    align-items: center;
+    width: 20%;
+  }
+
+  .QR-image {
+    width: 50% !important;
+  }
+
+  .footer {
+    background-color: #f1fde1;
+    height: 1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.8rem 2rem 6rem 3rem;
+  }
+
+  .questions-typography {
+    font-size: 12px !important;
+    letter-spacing: -0.7px;
+    line-height: 21.78px;
+  }
+
+  .copyright-typography {
+    font-size: 10px !important;
+    letter-spacing: -0.7px !important;
+    line-height: 17px !important;
+    color: rgb(114, 114, 114) !important;
+  }
+
+  .support-typography {
+    color: #000;
+    font-family: "Inter-Regular";
+    font-size: 10px !important;
+    margin-left: 10px;
+  }
+
+  .email-contact {
+    display: flex;
+    font-size: 10px !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
